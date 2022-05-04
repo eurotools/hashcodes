@@ -44,6 +44,13 @@
 #define HT_AnimBone_L_HorseLink			0x0e000028
 #define HT_AnimBone_R_HorseLink			0x0e000029
 
+#define HT_AnimBone_Extra01				0x0e00002a
+#define HT_AnimBone_Extra02				0x0e00002b
+#define HT_AnimBone_Extra03				0x0e00002c
+#define HT_AnimBone_Extra04				0x0e00002d
+#define HT_AnimBone_Extra05				0x0e00002e
+#define HT_AnimBone_Extra06				0x0e00002f
+
 #define HT_AnimBone_L_Finger0			0x0e000030
 #define HT_AnimBone_L_Finger01			0x0e000031
 #define HT_AnimBone_L_Finger02			0x0e000032
@@ -115,7 +122,15 @@
 #define HT_AnimBone_Object07			0x0e000076
 #define HT_AnimBone_Object08			0x0e000077
 
-/* 0e000056 */
+#define HT_AnimBone_Extra07				0x0e000078
+#define HT_AnimBone_Extra08				0x0e000079
+#define HT_AnimBone_Extra09				0x0e00007a
+#define HT_AnimBone_Extra10				0x0e00007b
+#define HT_AnimBone_Extra11				0x0e00007c
+#define HT_AnimBone_Extra12				0x0e00007d
+
+
+/* 0e000080 */
 
 
 
