@@ -1,82 +1,17 @@
 ////////////////////////////////////////////////////////////////////////////
 // UIDFILE 1.0
-// DBTIMESTAMP: 164352 25012010
+// DBTIMESTAMP: 124225 12082008
 // UID File generated from: safebox0|EngineXT
-//                      at: 12:06:48 26 Jan 2010
-//                      by: christosp
+//                      at: 12:15:45 13 Aug 2008
+//                      by: nilsw
 ////////////////////////////////////////////////////////////////////////////
 
 namespace EXGUID
 {
-	// Asset Type: ShaderFile 0x9d000000
-	const EXuid ShaderFile_StandaloneShaders = 0x9d000000;
+	// Asset Type: Scheme 0x94000000
 
-	// Asset Type: AnimHierarchy 0x9e000000
-
-	// Asset Type: Font 0x9f000000
-	const EXuid Font_EXT_Debug_Font = 0x9f000000;
-
-	// Asset Type: GIBundle 0xa0000000
-
-	// Asset Type: DestructibleStructure 0xa2000000
-
-	// Asset Type: AudioCullingGroup 0xadb00000
-
-	// Asset Type: AudioDuckerGroup 0xadc00000
-
-	// Asset Type: Movie 0xab000000
-
-	// Asset Type: MoviePlayer 0xab100000
-	const EXuid MoviePlayer_XMV = 0xab100002;
-	const EXuid MoviePlayer_Bink = 0xab100000;
-	const EXuid MoviePlayer_WMV = 0xab100001;
-	const EXuid MoviePlayer_THP = 0xab100005;
-	const EXuid MoviePlayer_LibSail = 0xab100003;
-	const EXuid MoviePlayer_Dirac = 0xab100004;
-
-	// Asset Type: CollisionGroup 0xac000000
-	const EXuid CollisionGroup_EngineXTCollision = 0xac001000;
-	const EXuid CollisionGroup_EngineXTVehicleWheels = 0xac001001;
-	const EXuid CollisionGroup_EngineXTPicker = 0xac001002;
-
-	// Asset Type: CustomAttributeID 0xac100000
-	const EXuid CustomAttributeID_Substance_EngineXT_StandardWood = 0xac100000;
-	const EXuid CustomAttributeID_Substance_EngineXT_StandardMetal = 0xac100001;
-	const EXuid CustomAttributeID_Substance_EngineXT_StandardIce = 0xac100002;
-	const EXuid CustomAttributeID_Substance_EngineXT_StandardRubber = 0xac100003;
-	const EXuid CustomAttributeID_DestructibleSplitMethod_Random = 0xac100005;
-	const EXuid CustomAttributeID_DestructibleSplitMethod_Blocks = 0xac100006;
-	const EXuid CustomAttributeID_DestructibleSplitMethod_BoundsBased = 0xac100007;
-	const EXuid CustomAttributeID_DMS_BodyInfo = 0xac100008;
-	const EXuid CustomAttributeID_WheelInfo = 0xac10000a;
-	const EXuid CustomAttributeID_VehicleInfo = 0xac100009;
-	const EXuid CustomAttributeID_AnimEventCAP = 0xac10000b;
-
-	// Asset Type: AudioMixerGroup 0xadd00000
-
-	// Asset Type: AnimControllerInput 0xb7000000
-	const EXuid AnimControllerInput_Input = 0xb7000000;
-	const EXuid AnimControllerInput_Depth = 0xb7000001;
-	const EXuid AnimControllerInput_InputA = 0xb7000002;
-	const EXuid AnimControllerInput_InputB = 0xb7000003;
-	const EXuid AnimControllerInput_Input1 = 0xb7000005;
-	const EXuid AnimControllerInput_Input2 = 0xb7000006;
-	const EXuid AnimControllerInput_Input3 = 0xb7000007;
-	const EXuid AnimControllerInput_Input4 = 0xb7000008;
-	const EXuid AnimControllerInput_Input5 = 0xb7000009;
-	const EXuid AnimControllerInput_Input6 = 0xb700000a;
-	const EXuid AnimControllerInput_Input7 = 0xb700000b;
-	const EXuid AnimControllerInput_Input8 = 0xb700000c;
-	const EXuid AnimControllerInput_Input9 = 0xb700000d;
-	const EXuid AnimControllerInput_Input10 = 0xb700000e;
-	const EXuid AnimControllerInput_Input11 = 0xb700000f;
-	const EXuid AnimControllerInput_Input12 = 0xb7000010;
-	const EXuid AnimControllerInput_Input13 = 0xb7000011;
-	const EXuid AnimControllerInput_Input14 = 0xb7000012;
-	const EXuid AnimControllerInput_Input15 = 0xb7000013;
-	const EXuid AnimControllerInput_Input16 = 0xb7000014;
-	const EXuid AnimControllerInput_AnimData = 0xb7000015;
-	const EXuid AnimControllerInput_Input0 = 0xb7000004;
+	// Asset Type: SubFile 0x81800000
+	const EXuid SubFile_BaseGroup_IanTest = 0x81800000;
 
 	// Asset Type: AnimBone 0xac200000
 	const EXuid AnimBone_L_Finger32 = 0xac200020;
@@ -147,10 +82,33 @@ namespace EXGUID
 
 	// Asset Type: Datum 0xac300000
 
+	// Asset Type: AnimDatabaseSection 0x93300000
+	const EXuid AnimDatabaseSection_ESection1 = 0x93300000;
+	const EXuid AnimDatabaseSection_ESection2 = 0x93300001;
+
 	// Asset Type: PhysicsSubstance 0xac400000
+
+	// Asset Type: Animation 0x86000000
+
+	// Asset Type: CustomAttributeID 0xac100000
+	const EXuid CustomAttributeID_Substance_EngineXT_StandardWood = 0xac100000;
+	const EXuid CustomAttributeID_Substance_EngineXT_StandardMetal = 0xac100001;
+	const EXuid CustomAttributeID_Substance_EngineXT_StandardIce = 0xac100002;
+	const EXuid CustomAttributeID_Substance_EngineXT_StandardRubber = 0xac100003;
+	const EXuid CustomAttributeID_DestructibleSplitMethod_Random = 0xac100005;
+	const EXuid CustomAttributeID_DestructibleSplitMethod_Blocks = 0xac100006;
+	const EXuid CustomAttributeID_DestructibleSplitMethod_BoundsBased = 0xac100007;
+	const EXuid CustomAttributeID_DMS_BodyInfo = 0xac100008;
 
 	// Asset Type: AnimLodDetails 0xac500000
 	const EXuid AnimLodDetails_DefaultXT = 0xac500000;
+
+	// Asset Type: ShaderFile 0x9d000000
+	const EXuid ShaderFile_StandaloneShaders = 0x9d000000;
+
+	// Asset Type: Movie 0xab000000
+
+	// Asset Type: Path 0x95000000
 
 	// Asset Type: ProceduralBoneFunc 0xac600000
 	const EXuid ProceduralBoneFunc_TwistBone = 0xac600000;
@@ -159,9 +117,75 @@ namespace EXGUID
 	const EXuid ProceduralBoneFunc_DirectionalSpring = 0xac600003;
 	const EXuid ProceduralBoneFunc_RopePhysics = 0xac600004;
 
+	// Asset Type: NavMesh 0x96000000
+
+	// Asset Type: ComplexPhysics 0x97000000
+
+	// Asset Type: Camera 0x8b000000
+	const EXuid Camera_Default = 0x8b000004;
+	const EXuid Camera_EXT_Debug_TimeLineCamera = 0x8b000003;
+	const EXuid Camera_Editor = 0x8b000007;
+
+	// Asset Type: Light 0x8c000000
+	const EXuid Light_SphericalGobo = 0x8c000008;
+	const EXuid Light_Directional = 0x8c000000;
+	const EXuid Light_Point = 0x8c000001;
+	const EXuid Light_Spot = 0x8c000002;
+	const EXuid Light_Gobo = 0x8c000003;
+	const EXuid Light_UniformHemisphere = 0x8c000004;
+	const EXuid Light_SphericalEnvMap = 0x8c000005;
+	const EXuid Light_Spherical = 0x8c000006;
+	const EXuid Light_PlanarGobo = 0x8c000009;
+	const EXuid Light_GILightMap = 0x8c00000a;
+	const EXuid Light_Refraction = 0x8c00000b;
+	const EXuid Light_PlaneReflection = 0x8c00000c;
+	const EXuid Light_DirectionalUniformHemisphere = 0x8c00000e;
+	const EXuid Light_CubeEnvMap = 0x8c00000d;
+
+	// Asset Type: AnimMixer 0x98000000
+
+	// Asset Type: Script 0x99000000
+
+	// Asset Type: Terrain 0x9a000000
+
+	// Asset Type: FileStore 0x9b000000
+
+	// Asset Type: TextStore 0x9c000000
+
+	// Asset Type: AnimHierarchy 0x9e000000
+
+	// Asset Type: Font 0x9f000000
+
 	// Asset Type: Window 0xac700000
 	const EXuid Window_EXT_Editor = 0xac700000;
 	const EXuid Window_EXT_WaitingForConnect = 0xac700001;
+
+	// Asset Type: DMSBody 0xb0000000
+	const EXuid DMSBody_Foot = 0xb0000000;
+	const EXuid DMSBody_Pelvis = 0xb0000001;
+	const EXuid DMSBody_Invalid = 0xb0000002;
+	const EXuid DMSBody_L_Foot = 0xb0000003;
+	const EXuid DMSBody_L_Calf = 0xb0000004;
+	const EXuid DMSBody_L_Thigh = 0xb0000005;
+	const EXuid DMSBody_R_Foot = 0xb0000006;
+	const EXuid DMSBody_R_Calf = 0xb0000007;
+	const EXuid DMSBody_R_Thigh = 0xb0000008;
+	const EXuid DMSBody_Spine0 = 0xb0000009;
+	const EXuid DMSBody_Spine1 = 0xb000000a;
+	const EXuid DMSBody_Spine2 = 0xb000000b;
+	const EXuid DMSBody_Neck = 0xb000000c;
+	const EXuid DMSBody_Head = 0xb000000d;
+	const EXuid DMSBody_L_Clavical = 0xb000000e;
+	const EXuid DMSBody_R_Clavical = 0xb000000f;
+	const EXuid DMSBody_L_UpperArm = 0xb0000010;
+	const EXuid DMSBody_L_Forearm = 0xb0000011;
+	const EXuid DMSBody_L_Hand = 0xb0000012;
+	const EXuid DMSBody_R_UpperArm = 0xb0000013;
+	const EXuid DMSBody_R_Forearm = 0xb0000014;
+	const EXuid DMSBody_R_Hand = 0xb0000015;
+
+	// Asset Type: CollisionGroup 0xac000000
+	const EXuid CollisionGroup_EngineXTCollision = 0xac001000;
 
 	// Asset Type: Event 0xac800000
 	const EXuid Event_UnitTest = 0xac800000;
@@ -171,8 +195,6 @@ namespace EXGUID
 	const EXuid Event_SystemUIHide = 0xac800004;
 	const EXuid Event_SystemExit = 0xac800005;
 	const EXuid Event_PS3NetworkCtl = 0xac800006;
-	const EXuid Event_UserOSK = 0xac800010;
-	const EXuid Event_UserDeviceSelector = 0xac800012;
 	const EXuid Event_InputDeviceStatus = 0xac800007;
 	const EXuid Event_UserAcceptGameInvite = 0xac80000a;
 	const EXuid Event_UserDeviceRemoved = 0xac800009;
@@ -180,290 +202,96 @@ namespace EXGUID
 	const EXuid Event_UserProfileChanged = 0xac80000c;
 	const EXuid Event_ConnectionChanged = 0xac80000d;
 	const EXuid Event_StorageDeviceRemoved = 0xac80000e;
+	const EXuid Event_UserOSKEvent = 0xac800010;
 	const EXuid Event_UserDeviceAdded = 0xac80000f;
-	const EXuid Event_OnlineSessionMemberDataReceived = 0xac800036;
-	const EXuid Event_UserEnumerateAchievements = 0xac800029;
-	const EXuid Event_LeaderBoardWritten = 0xac80002a;
-	const EXuid Event_LeaderBoardFlushed = 0xac80002b;
-	const EXuid Event_LeaderBoardRead = 0xac80002c;
-	const EXuid Event_UserSendInviteUIComplete = 0xac800018;
-	const EXuid Event_UserInviteUIComplete = 0xac800024;
-	const EXuid Event_SubscribedPresence = 0xac800026;
-	const EXuid Event_UserPreferencesRead = 0xac800011;
-	const EXuid Event_UserEnumerateSaves = 0xac800013;
-	const EXuid Event_UserSaveGame = 0xac800014;
-	const EXuid Event_UserLoadGame = 0xac800015;
-	const EXuid Event_UserEnumerateFriends = 0xac800016;
-	const EXuid Event_FriendPresence = 0xac800017;
-	const EXuid Event_UserEnumeratePresence = 0xac800019;
-	const EXuid Event_UserIncomingGameInvite = 0xac80001a;
-	const EXuid Event_UserDeclineGameInvite = 0xac80001b;
-	const EXuid Event_PS3TrophyPlatinumUnlocked = 0xac800028;
-	const EXuid Event_PS3TrophyContextRegistration = 0xac800027;
-	const EXuid Event_UserRequestSendGameInvite = 0xac800042;
-	const EXuid Event_OnlineSessionMemberReadyChanged = 0xac800035;
-	const EXuid Event_OnlineSessionMemberCommSettingChanged = 0xac800037;
-	const EXuid Event_OnlineServiceStateChange = 0xac800031;
-	const EXuid Event_OnlineQueryJoinSession = 0xac800030;
-	const EXuid Event_OnlineWorldInfoList = 0xac80002e;
-	const EXuid Event_OnlineRegisterArbitration = 0xac80002f;
-	const EXuid Event_OnlinePlayerLeavingSession = 0xac800032;
-	const EXuid Event_UserDeviceAssigned = 0xac800040;
-	const EXuid Event_NPSignalling = 0xac800038;
-	const EXuid Event_OnlinePlayerJoiningSession = 0xac800033;
-	const EXuid Event_OnlineSessionMembers = 0xac800034;
-	const EXuid Event_OnlineCreateSession = 0xac80002d;
-	const EXuid Event_NPRequest = 0xac800039;
-	const EXuid Event_NPRoomEvent = 0xac80003a;
-	const EXuid Event_NPRoomMessage = 0xac80003b;
-	const EXuid Event_NPLobbyEvent = 0xac80003c;
-	const EXuid Event_NPLobbyMessage = 0xac80003d;
-	const EXuid Event_NPContextState = 0xac80003e;
-	const EXuid Event_OnlineSessionSearchResult = 0xac80003f;
-	const EXuid Event_UserDeviceUnassigned = 0xac800041;
-	const EXuid Event_UserFriendAdded = 0xac800043;
-	const EXuid Event_UserFriendRemoved = 0xac800044;
-	const EXuid Event_MediaPlayerStateChange = 0xac800045;
-	const EXuid Event_MediaPlayerBehaviourChanged = 0xac800046;
-	const EXuid Event_MediaPlayerControllerChanged = 0xac800047;
-	const EXuid Event_MuteListChanged = 0xac800048;
-	const EXuid Event_PartyMembersChanged = 0xac800049;
-	const EXuid Event_PlayTimerNotice = 0xac80004a;
-	const EXuid Event_UserAvatarChange = 0xac80004b;
-	const EXuid Event_NpMatchingRequestGetServerInfo = 0xac80004d;
-	const EXuid Event_NpMatchingRequestGetWorldInfoList = 0xac80004e;
-	const EXuid Event_PartyInviteResult = 0xac80004c;
-	const EXuid Event_NpMatchingRequestGetRoomMemberDataExternalList = 0xac80004f;
-	const EXuid Event_NpMatchingRequestSetRoomDataExternal = 0xac800050;
-	const EXuid Event_NpMatchingRequestGetRoomDataExternalList = 0xac800051;
-	const EXuid Event_NpMatchingRequestGetLobbyInfoList = 0xac800052;
-	const EXuid Event_NpMatchingRequestSetUserInfo = 0xac800053;
-	const EXuid Event_NpMatchingRequestGetUserInfoList = 0xac800054;
-	const EXuid Event_NpMatchingRequestRequestCreateServerContext = 0xac800055;
-	const EXuid Event_NpMatchingRequestDeleteServerContext = 0xac800056;
-	const EXuid Event_NpMatchingRequestCreateJoinRoom = 0xac800057;
-	const EXuid Event_NpMatchingRequestJoinRoom = 0xac800058;
-	const EXuid Event_NpMatchingRequestLeaveRoom = 0xac800059;
-	const EXuid Event_NpMatchingRequestGrantRoomOwner = 0xac80005a;
-	const EXuid Event_NpMatchingRequestKickoutRoomMember = 0xac80005b;
-	const EXuid Event_NpMatchingRequestSearchRoom = 0xac80005c;
-	const EXuid Event_NpMatchingRequestSendRoomChatMessage = 0xac80005d;
-	const EXuid Event_NpMatchingRequestSendRoomMessage = 0xac80005e;
-	const EXuid Event_NpMatchingRequestSetRoomDataInternal = 0xac80005f;
-	const EXuid Event_NpMatchingRequestGetRoomDataInternal = 0xac800060;
-	const EXuid Event_NpMatchingRequestSetRoomMemberDataInternal = 0xac800061;
-	const EXuid Event_NpMatchingRequestGetRoomMemberDataInternal = 0xac800062;
-	const EXuid Event_NpMatchingRequestSetSignalingOptParam = 0xac800063;
-	const EXuid Event_NpMatchingRequestJoinLobby = 0xac800064;
-	const EXuid Event_NpMatchingRequestLeaveLobby = 0xac800065;
-	const EXuid Event_NpMatchingRequestSendLobbyChatMessage = 0xac800066;
-	const EXuid Event_NpMatchingRequestSendLobbyInvitation = 0xac800067;
-	const EXuid Event_NpMatchingRequestSetLobbyMemberDataInternal = 0xac800068;
-	const EXuid Event_NpMatchingRequestGetLobbyMemberDataInternal = 0xac800069;
-	const EXuid Event_NpMatchingRequestGetLobbyMemberDataInternalList = 0xac80006a;
-	const EXuid Event_NpMatchingRequestSignalingGetPingInfo = 0xac80006b;
-	const EXuid Event_NpMatchingRoomMemberJoined = 0xac80006c;
-	const EXuid Event_NpMatchingRoomMemberLeft = 0xac80006d;
-	const EXuid Event_NpMatchingRoomKickedout = 0xac80006e;
-	const EXuid Event_NpMatchingRoomRoomDestroyed = 0xac80006f;
-	const EXuid Event_NpMatchingRoomRoomOwnerChanged = 0xac800070;
-	const EXuid Event_NpMatchingRoomUpdatedRoomDataInternal = 0xac800071;
-	const EXuid Event_NpMatchingRoomUpdatedRoomMemberDataInternal = 0xac800072;
-	const EXuid Event_NpMatchingRoomUpdatedSignalingOptParam = 0xac800073;
-	const EXuid Event_NpMatchingRoomChatMessage = 0xac800074;
-	const EXuid Event_NpMatchingRoomMessage = 0xac800075;
-	const EXuid Event_NpMatchingLobbyMemberJoined = 0xac800076;
-	const EXuid Event_NpMatchingLobbyMemberLeft = 0xac800077;
-	const EXuid Event_NpMatchingLobbyLobbyDestroyed = 0xac800078;
-	const EXuid Event_NpMatchingLobbyUpdatedLobbyMemberDataInternal = 0xac800079;
-	const EXuid Event_NpMatchingLobbyChatMessage = 0xac80007a;
-	const EXuid Event_NpMatchingLobbyInvitation = 0xac80007b;
-	const EXuid Event_NpMatchingSignalingDead = 0xac80007c;
-	const EXuid Event_NpMatchingSignalingEstablished = 0xac80007d;
-	const EXuid Event_NpMatchingContextStartOver = 0xac80007e;
-	const EXuid Event_NpMatchingContextStart = 0xac80007f;
-	const EXuid Event_NpMatchingContextStop = 0xac800080;
-	const EXuid Event_NpSignalingDead = 0xac800081;
-	const EXuid Event_NpSignalingEstablished = 0xac800082;
-	const EXuid Event_NpSignalingNetInfoError = 0xac800083;
-	const EXuid Event_NpSignalingNetInfoResult = 0xac800084;
-	const EXuid Event_NpSignalingPeerActivated = 0xac800085;
-	const EXuid Event_NpSignalingPeerDeactivated = 0xac800086;
-	const EXuid Event_NpSignalingMutualActivated = 0xac800087;
-	const EXuid Event_DebugNetwork_ChangeService = 0xac800088;
-	const EXuid Event_DebugNetwork_GetWorldList = 0xac800089;
-	const EXuid Event_DebugNetwork_CreateSession = 0xac80008a;
-	const EXuid Event_DebugNetwork_JoinSessionFromInvite = 0xac80008b;
-	const EXuid Event_DebugNetwork_SearchForSession = 0xac80008c;
-	const EXuid Event_DebugNetwork_JoinSessionFromSearch = 0xac80008d;
-	const EXuid Event_DebugNetwork_LeaveSession = 0xac80008e;
-	const EXuid Event_DebugNetwork_StartSession = 0xac80008f;
-	const EXuid Event_DebugNetwork_EndSession = 0xac800090;
-	const EXuid Event_DebugNetwork_SelectSessionMember = 0xac800091;
-	const EXuid Event_DebugNetwork_KickSessionMember = 0xac800092;
-	const EXuid Event_DebugNetwork_UploadScore = 0xac800093;
-	const EXuid Event_DebugNetwork_ReadScore = 0xac800094;
-	const EXuid Event_DebugNetwork_SetPresence = 0xac800095;
-	const EXuid Event_DebugNetwork_ChangeEXOSUser = 0xac800096;
-	const EXuid Event_DebugNetwork_EnumerateFriends = 0xac800097;
-	const EXuid Event_DebugNetwork_SendInviteUI = 0xac800098;
-	const EXuid Event_DebugNetwork_SelectInviteUI = 0xac800099;
-	const EXuid Event_DebugNetwork_SendMessageUI = 0xac80009a;
-	const EXuid Event_DebugNetwork_AwardAchievement = 0xac80009b;
-	const EXuid Event_DebugNetwork_EnumerateAchievements = 0xac80009c;
-	const EXuid Event_DebugNetwork_GetPartyUsers = 0xac80009d;
-	const EXuid Event_DebugNetwork_SetPartyData = 0xac80009e;
-	const EXuid Event_DebugNetwork_SendPartyInvites = 0xac80009f;
-	const EXuid Event_NetConnectionEstablished = 0xac8000a0;
-	const EXuid Event_FileInstallResult = 0xac8000a1;
-	const EXuid Event_FileInstallProgress = 0xac8000a2;
-	const EXuid Event_GameDataResult = 0xac8000a3;
-	const EXuid Event_ThreadExit = 0xac8000a4;
-	const EXuid Event_UserAddPlayersMet = 0xac8000a5;
-	const EXuid Event_CustomAsyncFileLoad = 0xac8000a6;
-	const EXuid Event_TitleUpdated = 0xac8000a7;
-	const EXuid Event_SceneGraphInstanced = 0xac8000a8;
-	const EXuid Event_EditorSelected = 0xac8000a9;
-	const EXuid Event_EditorDeselected = 0xac8000aa;
-	const EXuid Event_RunStateChanged = 0xac8000ab;
-	const EXuid Event_EditorModeChanged = 0xac8000ac;
-	const EXuid Event_UserCheckSaveBanner = 0xac8000ad;
-	const EXuid Event_UserDeleteSavedGame = 0xac8000ae;
-	const EXuid Event_ResetButtonPressed = 0xac8000af;
+	const EXuid Event_UserDeviceSelectorEvent = 0xac800012;
+	const EXuid Event_UserPreferencesReadEvent = 0xac800011;
+	const EXuid Event_UserEnumerateSavesEvent = 0xac800013;
+	const EXuid Event_UserSaveGameEvent = 0xac800014;
+	const EXuid Event_UserLoadGameEvent = 0xac800015;
+
+	// Asset Type: Entity 0x84000000
+	const EXuid Entity_EXDefIVViewerNode = 0x84000001;
 
 	// Asset Type: SgCallbackFunction 0xac900000
 	const EXuid SgCallbackFunction_DefaultXT = 0xac900000;
 
-	// Asset Type: DMSBody 0xaca00000
-	const EXuid DMSBody_Foot = 0xaca00000;
-	const EXuid DMSBody_Pelvis = 0xaca00001;
-	const EXuid DMSBody_Invalid = 0xaca00002;
-	const EXuid DMSBody_L_Foot = 0xaca00003;
-	const EXuid DMSBody_L_Calf = 0xaca00004;
-	const EXuid DMSBody_L_Thigh = 0xaca00005;
-	const EXuid DMSBody_R_Foot = 0xaca00006;
-	const EXuid DMSBody_R_Calf = 0xaca00007;
-	const EXuid DMSBody_R_Thigh = 0xaca00008;
-	const EXuid DMSBody_Spine0 = 0xaca00009;
-	const EXuid DMSBody_Spine1 = 0xaca0000a;
-	const EXuid DMSBody_Spine2 = 0xaca0000b;
-	const EXuid DMSBody_Neck = 0xaca0000c;
-	const EXuid DMSBody_Head = 0xaca0000d;
-	const EXuid DMSBody_L_Clavical = 0xaca0000e;
-	const EXuid DMSBody_R_Clavical = 0xaca0000f;
-	const EXuid DMSBody_L_UpperArm = 0xaca00010;
-	const EXuid DMSBody_L_Forearm = 0xaca00011;
-	const EXuid DMSBody_L_Hand = 0xaca00012;
-	const EXuid DMSBody_R_UpperArm = 0xaca00013;
-	const EXuid DMSBody_R_Forearm = 0xaca00014;
-	const EXuid DMSBody_R_Hand = 0xaca00015;
+	// Asset Type: Map 0x89000000
 
-	// Asset Type: AudioController 0xade00000
+	// Asset Type: GIBundle 0xa0000000
 
-	// Asset Type: PhysicsHandler 0xacc00000
-	const EXuid PhysicsHandler_Attractor = 0xacc00000;
-	const EXuid PhysicsHandler_None = 0xacc00001;
+	// Asset Type: Material 0x83000000
+	const EXuid Material_EXT_Shadowing = 0x83000000;
+	const EXuid Material_EXT_Debug_LightThermometer = 0x83000007;
+	const EXuid Material_EXT_Bumpy = 0x83000006;
+	const EXuid Material_EXT_Textured2D = 0x83000005;
+	const EXuid Material_EXT_Untextured3D = 0x83000002;
+	const EXuid Material_EXT_Untextured2D = 0x83000001;
+	const EXuid Material_EXT_Textured3D = 0x83000003;
+	const EXuid Material_EXT_Untextured3D_NoZTest = 0x83000008;
+	const EXuid Material_EXT_ImpostorRendering = 0x83000009;
 
-	// Asset Type: AudioGameVars 0xade10000
+	// Asset Type: Destructible 0xa1000000
 
-	// Asset Type: SgNodeHandler 0xace00000
-	const EXuid SgNodeHandler_EXScript = 0xace00000;
-	const EXuid SgNodeHandler_EXTestHandler = 0xace00001;
-	const EXuid SgNodeHandler_EXTimelineLink = 0xace00002;
-	const EXuid SgNodeHandler_EXAutoTrackingNode = 0xace00003;
-	const EXuid SgNodeHandler_EXPhysicsCAP = 0xace00005;
-	const EXuid SgNodeHandler_EXRepositionableChildNode = 0xace00006;
-	const EXuid SgNodeHandler_EXRepositionableChildNodeRoot = 0xace00007;
-	const EXuid SgNodeHandler_EXSgNodeHandlerCloth = 0xace00009;
-	const EXuid SgNodeHandler_EXSgNodeHandlerComplexPhysics = 0xace0000a;
-	const EXuid SgNodeHandler_EXSgNodeHandlerRigidBody = 0xace0000b;
-	const EXuid SgNodeHandler_EXSgNodeHandlerRope = 0xace0000c;
-	const EXuid SgNodeHandler_EXGroupPhysics = 0xace0000d;
+	// Asset Type: Texture 0x82000000
+	const EXuid Texture_EXT_Debug_Font = 0x82000000;
+	const EXuid Texture_EXT_Debug_Texture = 0x82000001;
+	const EXuid Texture_EXT_Small_Debug_Texture = 0x82000003;
+	const EXuid Texture_EXT_Debug_Texture_TextureUsage = 0x82000004;
+	const EXuid Texture_EXT_Movie_Texture = 0x82000005;
+	const EXuid Texture_EXT_Gamma_Texture = 0x82000006;
+	const EXuid Texture_EXT_ToneMapLevel_Texture = 0x82000007;
+	const EXuid Texture_EXT_BinkTexture1 = 0x82000008;
+	const EXuid Texture_EXT_BinkTexture2 = 0x82000009;
+	const EXuid Texture_EXT_BinkTexture3 = 0x8200000b;
+	const EXuid Texture_EXT_BinkTexture4 = 0x8200000c;
 
-	// Asset Type: DefNode 0xae000000
-	const EXuid DefNode_AnimPhysics = 0xae00000c;
-	const EXuid DefNode_Null = 0xae00000b;
-	const EXuid DefNode_Wind_Simple = 0xae00000e;
-	const EXuid DefNode_GadTool_Grid = 0xae000000;
-	const EXuid DefNode_GadTool_UnitBox = 0xae000001;
-	const EXuid DefNode_GadTool_TestConvexHull = 0xae000002;
-	const EXuid DefNode_GadTool_UnitCone = 0xae000003;
-	const EXuid DefNode_GadTool_UnitAxis = 0xae000004;
-	const EXuid DefNode_GadTool_BumpTestSquare = 0xae000005;
-	const EXuid DefNode_Physics_Interface = 0xae000006;
-	const EXuid DefNode_IK_BoneDirection = 0xae000007;
-	const EXuid DefNode_IK_BonePosition = 0xae000008;
-	const EXuid DefNode_Fluid_Volume = 0xae00000f;
-	const EXuid DefNode_GadTool_NodeReplicator = 0xae000010;
-	const EXuid DefNode_NullRender = 0xae000011;
-	const EXuid DefNode_WaterParameters = 0xae000012;
-	const EXuid DefNode_EXDefDebugPatternNode = 0xae000035;
-	const EXuid DefNode_PathLinear = 0xae000017;
-	const EXuid DefNode_PathSpline = 0xae000018;
-	const EXuid DefNode_Path = 0xae000013;
-	const EXuid DefNode_PathNetwork = 0xae000019;
-	const EXuid DefNode_PathWaypoint = 0xae000014;
-	const EXuid DefNode_IK_FootToFloor = 0xae00001a;
-	const EXuid DefNode_Deformable = 0xae00001b;
-	const EXuid DefNode_ReflectionTest = 0xae00001c;
-	const EXuid DefNode_IK_BoneSpring = 0xae00001d;
-	const EXuid DefNode_IK_RopeStrand = 0xae00001e;
-	const EXuid DefNode_IK_Rope = 0xae00001f;
-	const EXuid DefNode_FlattenedNode = 0xae000020;
-	const EXuid DefNode_EXDefUndergrowthInstancingNode = 0xae000022;
-	const EXuid DefNode_MoviePlayer = 0xae000023;
-	const EXuid DefNode_Movie = 0xae000024;
-	const EXuid DefNode_IK_PositionalSpring = 0xae000025;
-	const EXuid DefNode_EXDefParticleInstancingNode = 0xae000026;
-	const EXuid DefNode_EXDefLensFlareNode = 0xae000027;
-	const EXuid DefNode_EXDefTextRenderNode = 0xae000028;
-	const EXuid DefNode_EXDefFlatGrassNode = 0xae000029;
-	const EXuid DefNode_EXDefBackgroundClrNode = 0xae00002a;
-	const EXuid DefNode_EXDefWaterRippleNode = 0xae00002b;
-	const EXuid DefNode_EXDefParticleCollisionPlaneNode = 0xae00002c;
-	const EXuid DefNode_EXDefParticleNewtonNode = 0xae00002d;
-	const EXuid DefNode_EXDefPostProcessGodsRaysSunPosition = 0xae00002e;
-	const EXuid DefNode_EXDefParticleBufferConfigNode = 0xae00002f;
-	const EXuid DefNode_EXDefVolumetricObjectsConfigNode = 0xae000030;
-	const EXuid DefNode_EXDefVolumetricNode = 0xae000031;
-	const EXuid DefNode_EXDefGIXTConfigurationNode = 0xae000032;
-	const EXuid DefNode_EXDefRigidBodySphere = 0xae000033;
-	const EXuid DefNode_EXDefRigidBodyBox = 0xae000034;
-	const EXuid DefNode_EXDefParticlelFluidNode = 0xae000036;
-	const EXuid DefNode_EXDefMaterialModifierNode = 0xae000037;
-	const EXuid DefNode_EXDefVehicleNode = 0xae00004a;
-	const EXuid DefNode_EXDefAnimToolboxDepth2Setup = 0xae000039;
-	const EXuid DefNode_EXDefAnimToolboxLBRFSetup = 0xae00003a;
-	const EXuid DefNode_EXDefGeoFileTestNode = 0xae00003b;
-	const EXuid DefNode_EXDefParticlelFluidEmitterNode = 0xae00003c;
-	const EXuid DefNode_NetReplica = 0xae000040;
-	const EXuid DefNode_NetPeer = 0xae00003d;
-	const EXuid DefNode_NetItem = 0xae00003f;
-	const EXuid DefNode_EXDefDynamicCharacterNode = 0xae000041;
-	const EXuid DefNode_NetPlayer = 0xae00003e;
-	const EXuid DefNode_IVViewerNode = 0xae000043;
-	const EXuid DefNode_NetSystem = 0xae000044;
-	const EXuid DefNode_NetSystemNode = 0xae000045;
-	const EXuid DefNode_EXDefDestructibleStructureNode = 0xae000038;
-	const EXuid DefNode_EXDefDestructibleObjectNode = 0xae000046;
-	const EXuid DefNode_EXDefNPTNode = 0xae00004b;
-	const EXuid DefNode_EXDefImpostorRenderTargetNode = 0xae00004d;
-	const EXuid DefNode_EXDefSchemeRunnerNode = 0xae000051;
-	const EXuid DefNode_EXDefRandomForceNode = 0xae000052;
-	const EXuid DefNode_EXDefMaterialSwapNode = 0xae000053;
-	const EXuid DefNode_EXDefPathWaypointNode = 0xae000054;
-	const EXuid DefNode_EXDefNodePhysicsAttractor = 0xae000055;
-	const EXuid DefNode_EXDefChildSchemeNode = 0xae000056;
-	const EXuid DefNode_EXDefNodePhysics = 0xae000057;
-	const EXuid DefNode_NetPeerNode = 0xae000058;
-	const EXuid DefNode_NetServerNode = 0xae000059;
-	const EXuid DefNode_NetClientNode = 0xae00005a;
-	const EXuid DefNode_NetPeerToPeerNode = 0xae00005b;
-	const EXuid DefNode_NetworkNode = 0xae00005c;
-	const EXuid DefNode_EXDefSchemeRootNode = 0xae00005d;
-	const EXuid DefNode_EXDefRepositionableChildNode = 0xae00005e;
-	const EXuid DefNode_NetGatewayNode = 0xae00005f;
-	const EXuid DefNode_NetRouterNode = 0xae000060;
+	// Asset Type: EXSgIVViewerEntityNode 0xb1000000
+
+	// Asset Type: Zone 0x8a000000
+
+	// Asset Type: ResourceFile 0x81000000
+	const EXuid ResourceFile_PCGamePadDataFile = 0x81000002;
+
+	// Asset Type: Timeline 0x87000000
+
+	// Asset Type: Skeleton 0x85000000
+
+	// Asset Type: AnimSequence 0x86000000
+
+	// Asset Type: ParticleSystem 0x88000000
+
+	// Asset Type: Swoosh 0x8d000000
+
+	// Asset Type: RigidBody 0x8e000000
+
+	// Asset Type: Spreadsheet 0x80000000
+
+	// Asset Type: CustomAttributeTemplate 0x92000000
+
+	// Asset Type: Shader 0x8f000000
+	const EXuid Shader_Bumpy = 0x8f000000;
+	const EXuid Shader_Default = 0x8f000001;
+	const EXuid Shader_MultiTextureAdditive = 0x8f000002;
+	const EXuid Shader_MultiTextureAdditiveAO = 0x8f000003;
+	const EXuid Shader_MultiTextureMultiply = 0x8f000004;
+	const EXuid Shader_MultiTextureMultiplyAO = 0x8f000005;
+	const EXuid Shader_MultiTextureOverlay = 0x8f000006;
+	const EXuid Shader_MultiTextureOverlayAO = 0x8f000007;
+	const EXuid Shader_Textured2D = 0x8f000008;
+	const EXuid Shader_Textured3D = 0x8f000009;
+	const EXuid Shader_Untextured2D = 0x8f00000a;
+	const EXuid Shader_Untextured3D = 0x8f00000b;
+	const EXuid Shader_Water = 0x8f00000c;
+	const EXuid Shader_Ocean = 0x8f00000d;
+	const EXuid Shader_Glass = 0x8f00000e;
+	const EXuid Shader_TwoLayerBlended = 0x8f00000f;
+
+	// Asset Type: Rope 0x90000000
+
+	// Asset Type: Cloth 0x91000000
+
+	// Asset Type: AnimDatabase 0x93000000
 
 	// Asset Type: ClassID 0xaf000000
 	const EXuid ClassID_EXGeoZone = 0xaf00000f;
@@ -849,6 +677,8 @@ namespace EXGUID
 	const EXuid ClassID_EXDestructibleManager = 0xaf00019b;
 	const EXuid ClassID_EXSgMaterialModifierNode = 0xaf00019c;
 	const EXuid ClassID_EXDefMaterialModifierNode = 0xaf00019d;
+	const EXuid ClassID_EXDefDestructibleNode = 0xaf00019e;
+	const EXuid ClassID_EXSgDestructibleNode = 0xaf00019f;
 	const EXuid ClassID_EXAnimToolboxManager = 0xaf0001a0;
 	const EXuid ClassID_EXDefAnimToolboxDepth2Setup = 0xaf0001a1;
 	const EXuid ClassID_EXSgAnimToolboxDepth2Setup = 0xaf0001a2;
@@ -858,7 +688,6 @@ namespace EXGUID
 	const EXuid ClassID_EXGeoDestructible = 0xaf0001a6;
 	const EXuid ClassID_EXMeshGenManager = 0xaf0001a7;
 	const EXuid ClassID_EXDefGeoFileTestNode = 0xaf0001a8;
-	const EXuid ClassID_EXDefAnimSkeletonNode = 0xaf0001f6;
 	const EXuid ClassID_EXSgParticleFluidEmitter = 0xaf0001a9;
 	const EXuid ClassID_EXDefParticlelFluidEmitterNode = 0xaf0001aa;
 	const EXuid ClassID_EXOSManager = 0xaf0001ab;
@@ -870,224 +699,90 @@ namespace EXGUID
 	const EXuid ClassID_EXSgNetPeer = 0xaf0001b1;
 	const EXuid ClassID_EXBaseOSUserManager = 0xaf0001bc;
 	const EXuid ClassID_EXGeoViewerManager = 0xaf0001b3;
+	const EXuid ClassID_EXDefNetUser = 0xaf0001b0;
 	const EXuid ClassID_EXDefNetItem = 0xaf0001b4;
 	const EXuid ClassID_EXNetDefNode = 0xaf0001b8;
 	const EXuid ClassID_EXDefDynamicCharacterNode = 0xaf0001b9;
-	const EXuid ClassID_EXAsyncCommandManager = 0xaf0001cc;
+	const EXuid ClassID_EXNetUser = 0xaf0001b2;
 	const EXuid ClassID_EXNetItem = 0xaf0001b5;
 	const EXuid ClassID_EXSgDynamicCharacterNode = 0xaf0001ba;
 	const EXuid ClassID_EXDynamicCharacterManager = 0xaf0001bb;
 	const EXuid ClassID_EXOSUserManager = 0xaf0001bd;
 	const EXuid ClassID_EXNetReplicaNSG = 0xaf0001b7;
 	const EXuid ClassID_EXDefQuadNode = 0xaf0001be;
-	const EXuid ClassID_EXOnlineManager = 0xaf0001cd;
 	const EXuid ClassID_EXSgIVViewerNode = 0xaf0001bf;
 	const EXuid ClassID_EXDefIVViewerNode = 0xaf0001c0;
 	const EXuid ClassID_EXSgIVViewerEntityNode = 0xaf0001c1;
-	const EXuid ClassID_EXBaseOnlineManager = 0xaf0001cf;
 	const EXuid ClassID_EXMachineLearningManager = 0xaf0001c2;
-	const EXuid ClassID_EXSgUserCallbackNode = 0xaf0001ce;
-	const EXuid ClassID_EXDestructibleEntity = 0xaf0001c5;
-	const EXuid ClassID_EXDefNetSystem = 0xaf0001c8;
-	const EXuid ClassID_EXDefNetNode = 0xaf0001c6;
-	const EXuid ClassID_EXNetNode = 0xaf0001c7;
-	const EXuid ClassID_EXNetSystem = 0xaf0001c9;
-	const EXuid ClassID_EXDefNetPlayerNode = 0xaf0001b0;
-	const EXuid ClassID_EXNetPlayerNode = 0xaf0001b2;
-	const EXuid ClassID_EXDefNetSystemNode = 0xaf0001c3;
-	const EXuid ClassID_EXNetSystemNode = 0xaf0001c4;
-	const EXuid ClassID_EXSgDestructibleNode = 0xaf0001d2;
-	const EXuid ClassID_EXDefDestructibleNode = 0xaf0001d3;
-	const EXuid ClassID_EXDefDestructibleStructureNode = 0xaf00019e;
-	const EXuid ClassID_EXDefDestructibleObjectNode = 0xaf0001ca;
-	const EXuid ClassID_EXSgDestructibleStructureNode = 0xaf00019f;
-	const EXuid ClassID_EXSgDestructibleObjectNode = 0xaf0001cb;
-	const EXuid ClassID_EXDefVehicleNode = 0xaf0001da;
-	const EXuid ClassID_EXSgVehicleNode = 0xaf0001db;
-	const EXuid ClassID_EXDefOnlineSessionMember = 0xaf0001d6;
-	const EXuid ClassID_EXSgNPTNode = 0xaf0001dc;
-	const EXuid ClassID_EXDefNPTNode = 0xaf0001dd;
-	const EXuid ClassID_EXGeoMovie = 0xaf0001de;
-	const EXuid ClassID_EXSgTextureNode = 0xaf0001e4;
-	const EXuid ClassID_EXSgGIBundleNode = 0xaf0001e5;
-	const EXuid ClassID_EXDefImpostorRenderTargetNode = 0xaf0001e1;
-	const EXuid ClassID_EXSgImpostorRenderTargetNode = 0xaf0001e2;
-	const EXuid ClassID_EXHtmlReportManager = 0xaf0001e3;
-	const EXuid ClassID_EXDemonWareManager = 0xaf0001e8;
-	const EXuid ClassID_EXDefPlanarShadowSource = 0xaf0001e9;
-	const EXuid ClassID_EXSgPlanarShadowSource = 0xaf0001ea;
-	const EXuid ClassID_EXSgPlanarShadowSrcTarget = 0xaf0001eb;
-	const EXuid ClassID_EXBaseVoiceManager = 0xaf0001ec;
-	const EXuid ClassID_EXVoiceManager = 0xaf0001ed;
-	const EXuid ClassID_EXDefSchemeRunnerNode = 0xaf0001ee;
-	const EXuid ClassID_EXSgSchemeRunnerNode = 0xaf0001ef;
-	const EXuid ClassID_EXDefPlanarMultiShadow = 0xaf0001f0;
-	const EXuid ClassID_EXSgPlanarMultiShadow = 0xaf0001f1;
-	const EXuid ClassID_EXBaseDemonWareManager = 0xaf0001f3;
-	const EXuid ClassID_EXDefRandomForceNode = 0xaf0001f4;
-	const EXuid ClassID_EXNetConnectionManager = 0xaf0001f2;
-	const EXuid ClassID_EXSgRandomForceNode = 0xaf0001f5;
-	const EXuid ClassID_EXDefAnimSequenceNode = 0xaf0001f7;
-	const EXuid ClassID_EXDefMaterialSwapNode = 0xaf0001f8;
-	const EXuid ClassID_EXSgMaterialSwapNode = 0xaf0001f9;
-	const EXuid ClassID_EXSgNodeHandler = 0xaf0001fa;
-	const EXuid ClassID_EXSgNodeHandlerScript = 0xaf0001fb;
-	const EXuid ClassID_EXLinkManager = 0xaf0001fc;
-	const EXuid ClassID_EXDefPathWaypointNode = 0xaf0001fd;
-	const EXuid ClassID_EXSgPhysicsAttractorNode = 0xaf0001ff;
-	const EXuid ClassID_EXDefNodePhysicsAttractor = 0xaf000200;
-	const EXuid ClassID_EXSgLink = 0xaf000201;
-	const EXuid ClassID_EXPhysicsHandlerAttractor = 0xaf000202;
-	const EXuid ClassID_EXEditorViewPortWindow = 0xaf000203;
-	const EXuid ClassID_EXAsyncUpdateManager = 0xaf000204;
-	const EXuid ClassID_EXNetworkXTManager = 0xaf000206;
-	const EXuid ClassID_EXSgNodeHandlerAutoTrackingNode = 0xaf000205;
-	const EXuid ClassID_EXSgNodeHandlerAutoTrackingNodeController = 0xaf000207;
-	const EXuid ClassID_EXScheduledDebugRenderManager = 0xaf000208;
-	const EXuid ClassID_EXManagerExtender = 0xaf000209;
-	const EXuid ClassID_EXDefChildSchemeNode = 0xaf00020a;
-	const EXuid ClassID_EXSgChildSchemeNode = 0xaf00020b;
-	const EXuid ClassID_SgEditorTestChildSchemeNode = 0xaf00020c;
-	const EXuid ClassID_EXDefNodePhysics = 0xaf00020d;
-	const EXuid ClassID_EXSgNodeHandlerCAP = 0xaf00020e;
-	const EXuid ClassID_EXGeoEffectsEmitter = 0xaf00020f;
-	const EXuid ClassID_EXDefEffectsEmitterNode = 0xaf000210;
-	const EXuid ClassID_EXSgEffectsEmitterNode = 0xaf000211;
-	const EXuid ClassID_EXModuleManager = 0xaf000212;
-	const EXuid ClassID_EXThreadManager2 = 0xaf000213;
-	const EXuid ClassID_EXGeoAnimBlendTree = 0xaf000214;
-	const EXuid ClassID_EXDefAnimBlendTreeNode = 0xaf000215;
-	const EXuid ClassID_EXDefSchemeRootNode = 0xaf000216;
-	const EXuid ClassID_EXSgSchemeRootNode = 0xaf000217;
-	const EXuid ClassID_EXSgNetPeerNode = 0xaf000218;
-	const EXuid ClassID_EXDefNetPeerNode = 0xaf000219;
-	const EXuid ClassID_EXSgNetSystemNode = 0xaf00021a;
-	const EXuid ClassID_EXDefNetServerNode = 0xaf00021b;
-	const EXuid ClassID_EXDefNetClientNode = 0xaf00021c;
-	const EXuid ClassID_EXDefNetPeerToPeerNode = 0xaf00021d;
-	const EXuid ClassID_EXSgNetServerNode = 0xaf00021e;
-	const EXuid ClassID_EXSgNetClientNode = 0xaf00021f;
-	const EXuid ClassID_EXSgNetPeerToPeerNode = 0xaf000220;
-	const EXuid ClassID_EXNetPeer = 0xaf000221;
-	const EXuid ClassID_EXNetServer = 0xaf000222;
-	const EXuid ClassID_EXNetPeerToPeer = 0xaf000223;
-	const EXuid ClassID_EXSgNetworkNode = 0xaf000224;
-	const EXuid ClassID_EXDefNetworkNode = 0xaf000225;
-	const EXuid ClassID_EXSgRepositionableChildNode = 0xaf000226;
-	const EXuid ClassID_EXDefRepositionableChildNode = 0xaf000227;
-	const EXuid ClassID_EXDefNetGatewayNode = 0xaf000228;
-	const EXuid ClassID_EXDefNetRouterNode = 0xaf000229;
-	const EXuid ClassID_EXSgNetGatewayNode = 0xaf00022a;
-	const EXuid ClassID_EXSgNetRouterNode = 0xaf00022b;
-	const EXuid ClassID_EXDefAudioEventNode = 0xaf00022c;
-	const EXuid ClassID_EXSgAudioEventNode = 0xaf00022d;
-	const EXuid ClassID_EXSgRepositionableChildNodeHandler = 0xaf00022e;
-	const EXuid ClassID_EXSgNodeHandlerPhysicsBase = 0xaf00022f;
-	const EXuid ClassID_EXSgNodeHandlerPhysicsPool = 0xaf000230;
-	const EXuid ClassID_EXSgNodeHandlerRigidBody = 0xaf000231;
-	const EXuid ClassID_EXSgNodeHandlerRope = 0xaf000232;
-	const EXuid ClassID_EXSgNodeHandlerCloth = 0xaf000233;
-	const EXuid ClassID_EXLinkNode = 0xaf000234;
-	const EXuid ClassID_EXSgRepositionableChildNodeRootHandler = 0xaf000235;
-	const EXuid ClassID_EXSgNodeHandlerComplexPhysics = 0xaf000236;
-	const EXuid ClassID_EXAnimBlendTreeManager = 0xaf000237;
 
-	// Asset Type: AudioGameEvents 0xade20000
+	// Asset Type: DefNode 0xae000000
+	const EXuid DefNode_AnimPhysics = 0xae00000c;
+	const EXuid DefNode_Null = 0xae00000b;
+	const EXuid DefNode_Wind_Simple = 0xae00000e;
+	const EXuid DefNode_GadTool_Grid = 0xae000000;
+	const EXuid DefNode_GadTool_UnitBox = 0xae000001;
+	const EXuid DefNode_GadTool_TestConvexHull = 0xae000002;
+	const EXuid DefNode_GadTool_UnitCone = 0xae000003;
+	const EXuid DefNode_GadTool_UnitAxis = 0xae000004;
+	const EXuid DefNode_GadTool_BumpTestSquare = 0xae000005;
+	const EXuid DefNode_Physics_Interface = 0xae000006;
+	const EXuid DefNode_IK_BoneDirection = 0xae000007;
+	const EXuid DefNode_IK_BonePosition = 0xae000008;
+	const EXuid DefNode_Fluid_Volume = 0xae00000f;
+	const EXuid DefNode_GadTool_NodeReplicator = 0xae000010;
+	const EXuid DefNode_NullRender = 0xae000011;
+	const EXuid DefNode_WaterParameters = 0xae000012;
+	const EXuid DefNode_EXDefDebugPatternNode = 0xae000035;
+	const EXuid DefNode_PathLinear = 0xae000017;
+	const EXuid DefNode_PathSpline = 0xae000018;
+	const EXuid DefNode_Path = 0xae000013;
+	const EXuid DefNode_PathNetwork = 0xae000019;
+	const EXuid DefNode_PathWaypoint = 0xae000014;
+	const EXuid DefNode_IK_FootToFloor = 0xae00001a;
+	const EXuid DefNode_Deformable = 0xae00001b;
+	const EXuid DefNode_ReflectionTest = 0xae00001c;
+	const EXuid DefNode_IK_BoneSpring = 0xae00001d;
+	const EXuid DefNode_IK_RopeStrand = 0xae00001e;
+	const EXuid DefNode_IK_Rope = 0xae00001f;
+	const EXuid DefNode_FlattenedNode = 0xae000020;
+	const EXuid DefNode_EXDefUndergrowthInstancingNode = 0xae000022;
+	const EXuid DefNode_MoviePlayer = 0xae000023;
+	const EXuid DefNode_Movie = 0xae000024;
+	const EXuid DefNode_IK_PositionalSpring = 0xae000025;
+	const EXuid DefNode_EXDefParticleInstancingNode = 0xae000026;
+	const EXuid DefNode_EXDefLensFlareNode = 0xae000027;
+	const EXuid DefNode_EXDefTextRenderNode = 0xae000028;
+	const EXuid DefNode_EXDefFlatGrassNode = 0xae000029;
+	const EXuid DefNode_EXDefBackgroundClrNode = 0xae00002a;
+	const EXuid DefNode_EXDefWaterRippleNode = 0xae00002b;
+	const EXuid DefNode_EXDefParticleCollisionPlaneNode = 0xae00002c;
+	const EXuid DefNode_EXDefParticleNewtonNode = 0xae00002d;
+	const EXuid DefNode_EXDefPostProcessGodsRaysSunPosition = 0xae00002e;
+	const EXuid DefNode_EXDefParticleBufferConfigNode = 0xae00002f;
+	const EXuid DefNode_EXDefVolumetricObjectsConfigNode = 0xae000030;
+	const EXuid DefNode_EXDefVolumetricNode = 0xae000031;
+	const EXuid DefNode_EXDefGIXTConfigurationNode = 0xae000032;
+	const EXuid DefNode_EXDefRigidBodySphere = 0xae000033;
+	const EXuid DefNode_EXDefRigidBodyBox = 0xae000034;
+	const EXuid DefNode_EXDefParticlelFluidNode = 0xae000036;
+	const EXuid DefNode_EXDefMaterialModifierNode = 0xae000037;
+	const EXuid DefNode_EXDefDestructibleNode = 0xae000038;
+	const EXuid DefNode_EXDefAnimToolboxDepth2Setup = 0xae000039;
+	const EXuid DefNode_EXDefAnimToolboxLBRFSetup = 0xae00003a;
+	const EXuid DefNode_EXDefGeoFileTestNode = 0xae00003b;
+	const EXuid DefNode_EXDefParticlelFluidEmitterNode = 0xae00003c;
+	const EXuid DefNode_NetReplica = 0xae000040;
+	const EXuid DefNode_NetPeer = 0xae00003d;
+	const EXuid DefNode_NetUser = 0xae00003e;
+	const EXuid DefNode_NetItem = 0xae00003f;
+	const EXuid DefNode_EXDefDynamicCharacterNode = 0xae000041;
+	const EXuid DefNode_IVViewerNode = 0xae000043;
 
-	// Asset Type: AudioOscillator 0x80000000
+	// Asset Type: AnimDatabaseMode 0x93100000
 
-	// Asset Type: AudioTag 0x80000000
+	// Asset Type: AudioMusicMarker 0xad000000
 
-	// Asset Type: AudioSpreadsheet 0x80000000
-
-	// Asset Type: AnimBlendTree 0x80000000
-
-	// Asset Type: AnimControllerId 0xb8000000
-	const EXuid AnimControllerId_0 = 0xb8000000;
-	const EXuid AnimControllerId_1 = 0xb8000001;
-	const EXuid AnimControllerId_2 = 0xb8000002;
-	const EXuid AnimControllerId_3 = 0xb8000003;
-	const EXuid AnimControllerId_4 = 0xb8000004;
-	const EXuid AnimControllerId_5 = 0xb8000005;
-	const EXuid AnimControllerId_6 = 0xb8000006;
-	const EXuid AnimControllerId_7 = 0xb8000007;
-	const EXuid AnimControllerId_8 = 0xb8000008;
-	const EXuid AnimControllerId_9 = 0xb8000009;
-	const EXuid AnimControllerId_10 = 0xb800000a;
-	const EXuid AnimControllerId_11 = 0xb800000b;
-	const EXuid AnimControllerId_12 = 0xb800000c;
-	const EXuid AnimControllerId_13 = 0xb800000d;
-	const EXuid AnimControllerId_14 = 0xb800000e;
-	const EXuid AnimControllerId_15 = 0xb800000f;
-	const EXuid AnimControllerId_16 = 0xb8000010;
-	const EXuid AnimControllerId_17 = 0xb8000011;
-	const EXuid AnimControllerId_18 = 0xb8000012;
-	const EXuid AnimControllerId_19 = 0xb8000013;
-	const EXuid AnimControllerId_20 = 0xb8000014;
-	const EXuid AnimControllerId_21 = 0xb8000015;
-	const EXuid AnimControllerId_22 = 0xb8000016;
-	const EXuid AnimControllerId_23 = 0xb8000017;
-	const EXuid AnimControllerId_24 = 0xb8000018;
-	const EXuid AnimControllerId_25 = 0xb8000019;
-	const EXuid AnimControllerId_26 = 0xb800001a;
-	const EXuid AnimControllerId_27 = 0xb800001b;
-	const EXuid AnimControllerId_28 = 0xb800001c;
-	const EXuid AnimControllerId_29 = 0xb800001d;
-	const EXuid AnimControllerId_30 = 0xb800001e;
-	const EXuid AnimControllerId_31 = 0xb800001f;
-	const EXuid AnimControllerId_32 = 0xb8000020;
-	const EXuid AnimControllerId_33 = 0xb8000021;
-	const EXuid AnimControllerId_34 = 0xb8000022;
-	const EXuid AnimControllerId_35 = 0xb8000023;
-	const EXuid AnimControllerId_36 = 0xb8000024;
-	const EXuid AnimControllerId_37 = 0xb8000025;
-	const EXuid AnimControllerId_38 = 0xb8000026;
-	const EXuid AnimControllerId_39 = 0xb8000027;
-	const EXuid AnimControllerId_40 = 0xb8000028;
-	const EXuid AnimControllerId_41 = 0xb8000029;
-	const EXuid AnimControllerId_42 = 0xb800002a;
-	const EXuid AnimControllerId_43 = 0xb800002b;
-	const EXuid AnimControllerId_44 = 0xb800002c;
-	const EXuid AnimControllerId_45 = 0xb800002d;
-	const EXuid AnimControllerId_46 = 0xb800002e;
-	const EXuid AnimControllerId_47 = 0xb800002f;
-	const EXuid AnimControllerId_48 = 0xb8000030;
-	const EXuid AnimControllerId_49 = 0xb8000031;
-	const EXuid AnimControllerId_50 = 0xb8000032;
-	const EXuid AnimControllerId_51 = 0xb8000033;
-	const EXuid AnimControllerId_52 = 0xb8000034;
-	const EXuid AnimControllerId_53 = 0xb8000035;
-	const EXuid AnimControllerId_54 = 0xb8000036;
-	const EXuid AnimControllerId_55 = 0xb8000037;
-	const EXuid AnimControllerId_56 = 0xb8000038;
-	const EXuid AnimControllerId_57 = 0xb8000039;
-	const EXuid AnimControllerId_58 = 0xb800003a;
-	const EXuid AnimControllerId_59 = 0xb800003b;
-	const EXuid AnimControllerId_60 = 0xb800003c;
-	const EXuid AnimControllerId_61 = 0xb800003d;
-	const EXuid AnimControllerId_62 = 0xb800003e;
-	const EXuid AnimControllerId_63 = 0xb800003f;
-	const EXuid AnimControllerId_64 = 0xb8000040;
-	const EXuid AnimControllerId_65 = 0xb8000041;
-	const EXuid AnimControllerId_66 = 0xb8000042;
-	const EXuid AnimControllerId_67 = 0xb8000043;
-	const EXuid AnimControllerId_68 = 0xb8000044;
-	const EXuid AnimControllerId_69 = 0xb8000045;
-	const EXuid AnimControllerId_70 = 0xb8000046;
-	const EXuid AnimControllerId_71 = 0xb8000047;
-	const EXuid AnimControllerId_72 = 0xb8000048;
-	const EXuid AnimControllerId_73 = 0xb8000049;
-	const EXuid AnimControllerId_74 = 0xb800004a;
-	const EXuid AnimControllerId_75 = 0xb800004b;
-	const EXuid AnimControllerId_76 = 0xb800004c;
-	const EXuid AnimControllerId_77 = 0xb800004d;
-	const EXuid AnimControllerId_78 = 0xb800004e;
-	const EXuid AnimControllerId_79 = 0xb800004f;
-	const EXuid AnimControllerId_80 = 0xb8000050;
-
-	// Asset Type: Scheme 0x94000000
-
-	// Asset Type: AudioMemoryMap 0xad100000
+	// Asset Type: AudioMusicDetails 0xad100000
 
 	// Asset Type: AudioSoundDetails 0xad200000
 
@@ -1095,358 +790,50 @@ namespace EXGUID
 
 	// Asset Type: AudioStreamFile 0xad400000
 
-	// Asset Type: ResourceFile 0x81000000
-	const EXuid ResourceFile_PCGamePadDataFile = 0x81000002;
-
-	// Asset Type: AnimDatabaseAnimation 0x93100000
-
 	// Asset Type: AudioSoundbank 0xad500000
+
+	// Asset Type: AudioMusic 0xad600000
 
 	// Asset Type: AudioSFX 0xad700000
 
-	// Asset Type: AudioFilter 0xad800000
-
-	// Asset Type: SubFile 0x81800000
-	const EXuid SubFile_BaseGroup_IanTest = 0x81800000;
-
-	// Asset Type: Texture 0x82000000
-	const EXuid Texture_EXT_Debug_Font = 0x82000000;
-	const EXuid Texture_EXT_Debug_Texture = 0x82000001;
-	const EXuid Texture_EXT_Small_Debug_Texture = 0x82000003;
-	const EXuid Texture_EXT_Debug_Texture_TextureUsage = 0x82000004;
-	const EXuid Texture_EXT_Movie_Texture = 0x82000005;
-	const EXuid Texture_EXT_Gamma_Texture = 0x82000006;
-	const EXuid Texture_EXT_ToneMapLevel_Texture = 0x82000007;
-	const EXuid Texture_EXT_BinkTexture1 = 0x82000008;
-	const EXuid Texture_EXT_BinkTexture2 = 0x82000009;
-	const EXuid Texture_EXT_BinkTexture3 = 0x8200000b;
-	const EXuid Texture_EXT_BinkTexture4 = 0x8200000c;
-
-	// Asset Type: Material 0x83000000
-	const EXuid Material_EXT_Shadowing = 0x83000000;
-	const EXuid Material_EXT_Debug_LightThermometer = 0x83000007;
-	const EXuid Material_EXT_Bumpy = 0x83000006;
-	const EXuid Material_EXT_Textured2D = 0x83000005;
-	const EXuid Material_EXT_Untextured3D = 0x83000002;
-	const EXuid Material_EXT_Untextured2D = 0x83000001;
-	const EXuid Material_EXT_Textured3D = 0x83000003;
-	const EXuid Material_EXT_Untextured3D_NoZTest = 0x83000008;
-	const EXuid Material_EXT_ImpostorRendering = 0x83000009;
-	const EXuid Material_EXT_Untextured3DAlpha = 0x8300000a;
-
-	// Asset Type: Entity 0x84000000
-	const EXuid Entity_EXDefIVViewerNode = 0x84000001;
-
-	// Asset Type: Skeleton 0x85000000
-
-	// Asset Type: AnimSequence 0x86000000
-
-	// Asset Type: Timeline 0x87000000
-
-	// Asset Type: ParticleSystem 0x88000000
-
-	// Asset Type: Map 0x89000000
-
-	// Asset Type: Zone 0x8a000000
-
-	// Asset Type: Camera 0x8b000000
-	const EXuid Camera_Default = 0x8b000004;
-	const EXuid Camera_EXT_Debug_TimeLineCamera = 0x8b000003;
-	const EXuid Camera_Editor = 0x8b000007;
-
-	// Asset Type: Light 0x8c000000
-	const EXuid Light_SphericalGobo = 0x8c000008;
-	const EXuid Light_Directional = 0x8c000000;
-	const EXuid Light_Point = 0x8c000001;
-	const EXuid Light_Spot = 0x8c000002;
-	const EXuid Light_Gobo = 0x8c000003;
-	const EXuid Light_UniformHemisphere = 0x8c000004;
-	const EXuid Light_SphericalEnvMap = 0x8c000005;
-	const EXuid Light_Spherical = 0x8c000006;
-	const EXuid Light_PlanarGobo = 0x8c000009;
-	const EXuid Light_GILightMap = 0x8c00000a;
-	const EXuid Light_Refraction = 0x8c00000b;
-	const EXuid Light_PlaneReflection = 0x8c00000c;
-	const EXuid Light_DirectionalUniformHemisphere = 0x8c00000e;
-	const EXuid Light_CubeEnvMap = 0x8c00000d;
-	const EXuid Light_TargetDefault = 0x8c00000f;
-	const EXuid Light_TargetCharecterRig = 0x8c000011;
-
-	// Asset Type: Swoosh 0x8d000000
-
-	// Asset Type: RigidBody 0x8e000000
-
-	// Asset Type: Shader 0x8f000000
-	const EXuid Shader_Bumpy = 0x8f000000;
-	const EXuid Shader_Default = 0x8f000001;
-	const EXuid Shader_MultiTextureAdditive = 0x8f000002;
-	const EXuid Shader_MultiTextureAdditiveAO = 0x8f000003;
-	const EXuid Shader_MultiTextureMultiply = 0x8f000004;
-	const EXuid Shader_MultiTextureMultiplyAO = 0x8f000005;
-	const EXuid Shader_MultiTextureOverlay = 0x8f000006;
-	const EXuid Shader_MultiTextureOverlayAO = 0x8f000007;
-	const EXuid Shader_Textured2D = 0x8f000008;
-	const EXuid Shader_Textured3D = 0x8f000009;
-	const EXuid Shader_Untextured2D = 0x8f00000a;
-	const EXuid Shader_Untextured3D = 0x8f00000b;
-	const EXuid Shader_Water = 0x8f00000c;
-	const EXuid Shader_Ocean = 0x8f00000d;
-	const EXuid Shader_Glass = 0x8f00000e;
-	const EXuid Shader_TwoLayerBlended = 0x8f00000f;
-
-	// Asset Type: Rope 0x90000000
-
-	// Asset Type: Cloth 0x91000000
-
-	// Asset Type: CustomAttributeTemplate 0x92000000
-
-	// Asset Type: AnimDatabase 0x93000000
-
-	// Asset Type: AnimDatabaseSection 0x93300000
-	const EXuid AnimDatabaseSection_ESection1 = 0x93300000;
-	const EXuid AnimDatabaseSection_ESection2 = 0x93300001;
-
-	// Asset Type: Path 0x95000000
-
-	// Asset Type: NavMesh 0x96000000
-
-	// Asset Type: ComplexPhysics 0x97000000
-
-	// Asset Type: AnimMixer 0x98000000
-
-	// Asset Type: Script 0x99000000
-
-	// Asset Type: Terrain 0x9a000000
-
-	// Asset Type: FileStore 0x9b000000
-
-	// Asset Type: TextStore 0x9c000000
-
-	// Asset Type: AudioMemorySlot 0xad900000
-
-	// Asset Type: AudioMemoryWav 0xada00000
-
-	// Asset Type: AnimDatabaseGroupFolder 0x93200000
-
-	// Asset Type: Message 0xb3000000
-	const EXuid Message_Enable = 0xb3000009;
-	const EXuid Message_Disable = 0xb300000a;
-
-	// Asset Type: AnimControllerType 0xb4000000
-	const EXuid AnimControllerType_AnimSource = 0xb4000000;
-	const EXuid AnimControllerType_AnimData_Output = 0xb4000001;
-	const EXuid AnimControllerType_DepthBlend = 0xb4000002;
-	const EXuid AnimControllerType_Blend = 0xb4000003;
-	const EXuid AnimControllerType_AdditiveBlend = 0xb4000004;
-	const EXuid AnimControllerType_ComputeDifference = 0xb4000005;
-	const EXuid AnimControllerType_Snapshot = 0xb4000006;
-	const EXuid AnimControllerType_BonePositionIK = 0xb4000007;
-	const EXuid AnimControllerType_FootToFloorIK = 0xb4000008;
-	const EXuid AnimControllerType_RopeIK = 0xb4000009;
-	const EXuid AnimControllerType_BoneSpringIK = 0xb400000a;
-	const EXuid AnimControllerType_Float_Output = 0xb400000b;
-	const EXuid AnimControllerType_AnimData_Input = 0xb400000c;
-	const EXuid AnimControllerType_Float_Input = 0xb400000d;
-	const EXuid AnimControllerType_BlendTree = 0xb400000e;
-	const EXuid AnimControllerType_Transition = 0xb400000f;
-	const EXuid AnimControllerType_Slot = 0xb4000010;
-
-	// Asset Type: AnimControllerOutput 0xb5000000
-	const EXuid AnimControllerOutput_CurrentTime = 0xb5000000;
-	const EXuid AnimControllerOutput_NormalisedTime = 0xb5000001;
-	const EXuid AnimControllerOutput_AnimData = 0xb5000002;
-	const EXuid AnimControllerOutput_Float = 0xb5000003;
-	const EXuid AnimControllerOutput_Output = 0xb5000004;
-	const EXuid AnimControllerOutput_Depth = 0xb5000005;
-	const EXuid AnimControllerOutput_Result = 0xb5000006;
-	const EXuid AnimControllerOutput_LocalTime = 0xb5000007;
-
-	// Asset Type: AnimControllerProperty 0xb6000000
-	const EXuid AnimControllerProperty_AnimSequenceGUID = 0xb6000000;
-	const EXuid AnimControllerProperty_TimeMultiplier = 0xb6000001;
-	const EXuid AnimControllerProperty_LoopAnimation = 0xb6000002;
-	const EXuid AnimControllerProperty_RootMotion_TX = 0xb6000003;
-	const EXuid AnimControllerProperty_RootMotion_TY = 0xb6000004;
-	const EXuid AnimControllerProperty_RootMotion_TZ = 0xb6000005;
-	const EXuid AnimControllerProperty_RootMotion_RX = 0xb6000006;
-	const EXuid AnimControllerProperty_RootMotion_RY = 0xb6000007;
-	const EXuid AnimControllerProperty_RootMotion_RZ = 0xb6000008;
-	const EXuid AnimControllerProperty_RootMotion_RotOrder = 0xb6000009;
-	const EXuid AnimControllerProperty_ChannelMask = 0xb600000a;
-	const EXuid AnimControllerProperty_DefaultBlendValue = 0xb600000b;
-	const EXuid AnimControllerProperty_IncludedBones = 0xb600000c;
-	const EXuid AnimControllerProperty_TargetPosition = 0xb600000d;
-	const EXuid AnimControllerProperty_FixedBoneOrientation = 0xb600000e;
-	const EXuid AnimControllerProperty_BoneOrientation = 0xb600000f;
-	const EXuid AnimControllerProperty_PreserveBonePosition = 0xb6000010;
-	const EXuid AnimControllerProperty_PreserveBoneOrientation = 0xb6000011;
-	const EXuid AnimControllerProperty_BendLimitRange = 0xb6000012;
-	const EXuid AnimControllerProperty_BendDirection = 0xb6000013;
-	const EXuid AnimControllerProperty_FlipOutsideLimit = 0xb6000014;
-	const EXuid AnimControllerProperty_HeightCutoff = 0xb6000015;
-	const EXuid AnimControllerProperty_MaxDepth = 0xb6000016;
-	const EXuid AnimControllerProperty_FootHeightTweak = 0xb6000017;
-	const EXuid AnimControllerProperty_CastDepth = 0xb6000018;
-	const EXuid AnimControllerProperty_CastHeight = 0xb6000019;
-	const EXuid AnimControllerProperty_MaxMoveRate = 0xb600001a;
-	const EXuid AnimControllerProperty_FootBlendAngleSpeed = 0xb600001b;
-	const EXuid AnimControllerProperty_FootRollAngleLimit = 0xb600001c;
-	const EXuid AnimControllerProperty_FootPitchAngleLimit = 0xb600001d;
-	const EXuid AnimControllerProperty_ExtraToeCast = 0xb600001e;
-	const EXuid AnimControllerProperty_ToePosition = 0xb600001f;
-	const EXuid AnimControllerProperty_MaxLift = 0xb6000020;
-	const EXuid AnimControllerProperty_MaxDrop = 0xb6000021;
-	const EXuid AnimControllerProperty_MaxLiftChangeRate = 0xb6000022;
-	const EXuid AnimControllerProperty_MaxDropChangeRate = 0xb6000023;
-	const EXuid AnimControllerProperty_GravityTweak = 0xb6000024;
-	const EXuid AnimControllerProperty_Drag = 0xb6000025;
-	const EXuid AnimControllerProperty_DriveToAnim = 0xb6000026;
-	const EXuid AnimControllerProperty_CollisionLayerGUID = 0xb6000027;
-	const EXuid AnimControllerProperty_BoneGUID = 0xb6000028;
-	const EXuid AnimControllerProperty_Stiffness = 0xb6000029;
-	const EXuid AnimControllerProperty_Gravity = 0xb600002a;
-	const EXuid AnimControllerProperty_DistanceLimit = 0xb600002b;
-	const EXuid AnimControllerProperty_LimitType = 0xb600002c;
-	const EXuid AnimControllerProperty_LimitSpace = 0xb600002d;
-	const EXuid AnimControllerProperty_LimitVector = 0xb600002e;
-	const EXuid AnimControllerProperty_OutputUid = 0xb600002f;
+	// Asset Type: AudioReverb 0xad800000
 }
 
 namespace EXFUID
 {
-	// Asset Type: ShaderFile 0x1d000000
+	// Asset Type: Scheme 0x14000000
 
-	// Asset Type: AnimHierarchy 0x1e000000
-
-	// Asset Type: Font 0x1f000000
-
-	// Asset Type: GIBundle 0x20000000
-
-	// Asset Type: DestructibleStructure 0x22000000
-
-	// Asset Type: AudioCullingGroup 0x2db00000
-
-	// Asset Type: AudioDuckerGroup 0x2dc00000
-
-	// Asset Type: Movie 0x2b000000
-
-	// Asset Type: MoviePlayer 0x2b100000
-
-	// Asset Type: CollisionGroup 0x2c000000
-
-	// Asset Type: CustomAttributeID 0x2c100000
-
-	// Asset Type: AudioMixerGroup 0x2dd00000
-
-	// Asset Type: AnimControllerInput 0x37000000
+	// Asset Type: SubFile 0x01800000
 
 	// Asset Type: AnimBone 0x2c200000
 
 	// Asset Type: Datum 0x2c300000
 
+	// Asset Type: AnimDatabaseSection 0x13300000
+
 	// Asset Type: PhysicsSubstance 0x2c400000
+
+	// Asset Type: Animation 0x06000000
+
+	// Asset Type: CustomAttributeID 0x2c100000
 
 	// Asset Type: AnimLodDetails 0x2c500000
 
-	// Asset Type: ProceduralBoneFunc 0x2c600000
+	// Asset Type: ShaderFile 0x1d000000
 
-	// Asset Type: Window 0x2c700000
-
-	// Asset Type: Event 0x2c800000
-
-	// Asset Type: SgCallbackFunction 0x2c900000
-
-	// Asset Type: DMSBody 0x2ca00000
-
-	// Asset Type: AudioController 0x2de00000
-
-	// Asset Type: PhysicsHandler 0x2cc00000
-
-	// Asset Type: AudioGameVars 0x2de10000
-
-	// Asset Type: SgNodeHandler 0x2ce00000
-
-	// Asset Type: DefNode 0x2e000000
-
-	// Asset Type: ClassID 0x2f000000
-
-	// Asset Type: AudioGameEvents 0x2de20000
-
-	// Asset Type: AudioOscillator 0x00000000
-
-	// Asset Type: AudioTag 0x00000000
-
-	// Asset Type: AudioSpreadsheet 0x00000000
-
-	// Asset Type: AnimBlendTree 0x00000000
-
-	// Asset Type: AnimControllerId 0x38000000
-
-	// Asset Type: Scheme 0x14000000
-
-	// Asset Type: AudioMemoryMap 0x2d100000
-
-	// Asset Type: AudioSoundDetails 0x2d200000
-
-	// Asset Type: AudioProjectFile 0x2d300000
-
-	// Asset Type: AudioStreamFile 0x2d400000
-
-	// Asset Type: ResourceFile 0x01000000
-
-	// Asset Type: AnimDatabaseAnimation 0x13100000
-
-	// Asset Type: AudioSoundbank 0x2d500000
-
-	// Asset Type: AudioSFX 0x2d700000
-
-	// Asset Type: AudioFilter 0x2d800000
-
-	// Asset Type: SubFile 0x01800000
-
-	// Asset Type: Texture 0x02000000
-
-	// Asset Type: Material 0x03000000
-
-	// Asset Type: Entity 0x04000000
-
-	// Asset Type: Skeleton 0x05000000
-
-	// Asset Type: AnimSequence 0x06000000
-
-	// Asset Type: Timeline 0x07000000
-
-	// Asset Type: ParticleSystem 0x08000000
-
-	// Asset Type: Map 0x09000000
-
-	// Asset Type: Zone 0x0a000000
-
-	// Asset Type: Camera 0x0b000000
-
-	// Asset Type: Light 0x0c000000
-
-	// Asset Type: Swoosh 0x0d000000
-
-	// Asset Type: RigidBody 0x0e000000
-
-	// Asset Type: Shader 0x0f000000
-
-	// Asset Type: Rope 0x10000000
-
-	// Asset Type: Cloth 0x11000000
-
-	// Asset Type: CustomAttributeTemplate 0x12000000
-
-	// Asset Type: AnimDatabase 0x13000000
-
-	// Asset Type: AnimDatabaseSection 0x13300000
+	// Asset Type: Movie 0x2b000000
 
 	// Asset Type: Path 0x15000000
+
+	// Asset Type: ProceduralBoneFunc 0x2c600000
 
 	// Asset Type: NavMesh 0x16000000
 
 	// Asset Type: ComplexPhysics 0x17000000
+
+	// Asset Type: Camera 0x0b000000
+
+	// Asset Type: Light 0x0c000000
 
 	// Asset Type: AnimMixer 0x18000000
 
@@ -1458,17 +845,83 @@ namespace EXFUID
 
 	// Asset Type: TextStore 0x1c000000
 
-	// Asset Type: AudioMemorySlot 0x2d900000
+	// Asset Type: AnimHierarchy 0x1e000000
 
-	// Asset Type: AudioMemoryWav 0x2da00000
+	// Asset Type: Font 0x1f000000
 
-	// Asset Type: AnimDatabaseGroupFolder 0x13200000
+	// Asset Type: Window 0x2c700000
 
-	// Asset Type: Message 0x33000000
+	// Asset Type: DMSBody 0x30000000
 
-	// Asset Type: AnimControllerType 0x34000000
+	// Asset Type: CollisionGroup 0x2c000000
 
-	// Asset Type: AnimControllerOutput 0x35000000
+	// Asset Type: Event 0x2c800000
 
-	// Asset Type: AnimControllerProperty 0x36000000
+	// Asset Type: Entity 0x04000000
+
+	// Asset Type: SgCallbackFunction 0x2c900000
+
+	// Asset Type: Map 0x09000000
+
+	// Asset Type: GIBundle 0x20000000
+
+	// Asset Type: Material 0x03000000
+
+	// Asset Type: Destructible 0x21000000
+
+	// Asset Type: Texture 0x02000000
+
+	// Asset Type: EXSgIVViewerEntityNode 0x31000000
+
+	// Asset Type: Zone 0x0a000000
+
+	// Asset Type: ResourceFile 0x01000000
+
+	// Asset Type: Timeline 0x07000000
+
+	// Asset Type: Skeleton 0x05000000
+
+	// Asset Type: AnimSequence 0x06000000
+
+	// Asset Type: ParticleSystem 0x08000000
+
+	// Asset Type: Swoosh 0x0d000000
+
+	// Asset Type: RigidBody 0x0e000000
+
+	// Asset Type: Spreadsheet 0x00000000
+
+	// Asset Type: CustomAttributeTemplate 0x12000000
+
+	// Asset Type: Shader 0x0f000000
+
+	// Asset Type: Rope 0x10000000
+
+	// Asset Type: Cloth 0x11000000
+
+	// Asset Type: AnimDatabase 0x13000000
+
+	// Asset Type: ClassID 0x2f000000
+
+	// Asset Type: DefNode 0x2e000000
+
+	// Asset Type: AnimDatabaseMode 0x13100000
+
+	// Asset Type: AudioMusicMarker 0x2d000000
+
+	// Asset Type: AudioMusicDetails 0x2d100000
+
+	// Asset Type: AudioSoundDetails 0x2d200000
+
+	// Asset Type: AudioProjectFile 0x2d300000
+
+	// Asset Type: AudioStreamFile 0x2d400000
+
+	// Asset Type: AudioSoundbank 0x2d500000
+
+	// Asset Type: AudioMusic 0x2d600000
+
+	// Asset Type: AudioSFX 0x2d700000
+
+	// Asset Type: AudioReverb 0x2d800000
 }
