@@ -4,9 +4,9 @@ A handy list of public hashcodes for various Eurocom games, all in one place. Us
 ## What's this?
 Hashcodes, later renamed to UIDs are the actual names, or human-readable tags, of objects and files in EngineX titles.
 
-Internally, they are stored as some kind of incrementing hexadecimal serial number, and the higher parts of the number sort/group them into hierarchical groups of things, like text strings, game objectives and anything that needs a way of being uniquely addressed globally.
+Internally, they are stored as some kind of incrementing hexadecimal serial number, and the higher parts of the number sort/group them into hierarchical groups of things, like text string IDs, game objectives, EDB IDs and anything that needs a way of being uniquely addressed globally.
 
-These tags map those weird, meaningless numbers into the names the originally used.
+These tags map those weird, meaningless numbers into the names they originally used.
 
 The textual representation is optional, the game only loads them for developer convenience and aren't needed for the normal functioning of the game, sometimes they were shipped with the final files and sometimes wasn't. Depending on the team.
 
