@@ -15,3 +15,6 @@ These are collected from all over the place, generally from pre-release/debug/re
 ## What can I do with this?
 
 You can understand your favorite game much better, even by extrapolating values from other nearby titles. If you are into disciplines like game modding, romhacking, engine internals, reversing, datamining or the technical side of speedrunning this may be of interest. I hope. ¯\\\_(ツ)_/¯
+
+## What's `bcourt`?
+«_The Mummy: Tomb of the Dragon Emperor_»'s internal codename, seemingly the short form of _Brethen Court_, from _Pirates of the Caribbean_. Another fun fact, the codename for Eurocom's version of _Quantum of Solace_ is _Robin_. Don't ask me. :)
