@@ -344,7 +344,7 @@
 #define HT_File_Credits		 0x0100015c
 #define HT_File_Test_NB2		 0x0100015d
 #define HT_File_Trina		 0x0100015e
-#define HT_File_FatMam		 0x0100015f
+#define HT_File_FatMam		 0x0100015f   /* Manfred's Relative */
 #define HT_File_MerGnorcStar		 0x01000160
 #define HT_File_Gadgets		 0x01000161
 #define HT_File_JawTrap		 0x01000162
