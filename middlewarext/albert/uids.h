@@ -1,8 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////
 // UIDFILE 2.0
-// DBTIMESTAMP: 113413 21062011
+// DBTIMESTAMP: 085505 22032012
 // UID File generated from: safebox0|euroland_MiddlewareXT
-//                      at: 13:06:57 21 Jun 2011
+//                      at: 12:47:23 22 Mar 2012
 //                      by: richardt
 ////////////////////////////////////////////////////////////////////////////
 
@@ -573,6 +573,56 @@ namespace EXGUID
 	const EXuid ClassID_MWCameraPathBlend = 0x880001ef;
 	const EXuid ClassID_MWUserSweepInfoManager = 0x880001f0;
 	const EXuid ClassID_MWActivationSetHandler = 0x880001f1;
+	const EXuid ClassID_MWMessage_Shutdown = 0x880001f2;
+	const EXuid ClassID_MWDefMessage_Shutdown = 0x880001f3;
+	const EXuid ClassID_MWMessage_ChangeNormalPath = 0x880001f4;
+	const EXuid ClassID_MWDefMessage_ChangeNormalPath = 0x880001f5;
+	const EXuid ClassID_MWEventOnInstancesAvailable = 0x880001f6;
+	const EXuid ClassID_MWEventOnInstancesFull = 0x880001f7;
+	const EXuid ClassID_MWDefEventOnInstancesFull = 0x880001f8;
+	const EXuid ClassID_MWDefEventOnInstancesAvailable = 0x880001f9;
+	const EXuid ClassID_MWNetworkTestToolManager = 0x880001fa;
+	const EXuid ClassID_MWLoadingFlowNode = 0x880001fb;
+	const EXuid ClassID_MWSceneRootManager = 0x880001fc;
+	const EXuid ClassID_MWDefSchemeNode = 0x880001fd;
+	const EXuid ClassID_MWSchemeManager = 0x880001fe;
+	const EXuid ClassID_MWAdaptorManager = 0x880001ff;
+	const EXuid ClassID_MWActionPhysicsVelocity = 0x88000200;
+	const EXuid ClassID_MWDefActionPhysicsVelocity = 0x88000201;
+	const EXuid ClassID_MWDefMessage_PathSetSpeedGradual = 0x88000202;
+	const EXuid ClassID_MWMessage_PathSetSpeedGradual = 0x88000203;
+	const EXuid ClassID_MWDriverByRotation = 0x88000204;
+	const EXuid ClassID_MWDefDriverByRotation = 0x88000205;
+	const EXuid ClassID_MWDefMessage_Activate = 0x88000206;
+	const EXuid ClassID_MWDefMessage_Deactivate = 0x88000207;
+	const EXuid ClassID_MWDefMessage_Pause = 0x88000208;
+	const EXuid ClassID_MWDefMessage_Resume = 0x88000209;
+	const EXuid ClassID_MWMessage_Activate = 0x8800020a;
+	const EXuid ClassID_MWMessage_Deactivate = 0x8800020b;
+	const EXuid ClassID_MWMessage_Pause = 0x8800020c;
+	const EXuid ClassID_MWMessage_Resume = 0x8800020d;
+	const EXuid ClassID_MWDefMessage_SetSpeed = 0x8800020e;
+	const EXuid ClassID_MWMessage_SetSpeed = 0x8800020f;
+	const EXuid ClassID_MWDefMessage_RigidBodyPause = 0x88000210;
+	const EXuid ClassID_MWDefMessage_RigidBodyResume = 0x88000211;
+	const EXuid ClassID_MWMessage_RigidBodyPause = 0x88000212;
+	const EXuid ClassID_MWMessage_RigidBodyResume = 0x88000213;
+	const EXuid ClassID_MWDefMessage_SetSpeedGradual = 0x88000214;
+	const EXuid ClassID_MWMessage_SetSpeedGradual = 0x88000215;
+	const EXuid ClassID_MWDefMessage_SetRange = 0x88000216;
+	const EXuid ClassID_MWMessage_SetRange = 0x88000217;
+	const EXuid ClassID_MWDefMessage_PathChangePath = 0x88000218;
+	const EXuid ClassID_MWMessage_PathChangePath = 0x88000219;
+	const EXuid ClassID_MWDefMessage_PathChangeNormalPath = 0x8800021a;
+	const EXuid ClassID_MWMessage_PathChangeNormalPath = 0x8800021b;
+	const EXuid ClassID_MWDefMessage_TimelineSetState = 0x8800021c;
+	const EXuid ClassID_MWMessage_TimelineSetState = 0x8800021d;
+	const EXuid ClassID_MWDefMessage_TimelineChangeState = 0x8800021e;
+	const EXuid ClassID_MWMessage_TimelineChangeState = 0x88000220;
+	const EXuid ClassID_MWSceneRootNode = 0x88000221;
+	const EXuid ClassID_MWDefSceneRootNode = 0x88000222;
+	const EXuid ClassID_MWTransformModifierNode = 0x88000225;
+	const EXuid ClassID_MWDefTransformModifierNode = 0x88000226;
 
 	// Asset Type: SgNodeHandler 0x88600000
 	const EXuid SgNodeHandler_NavTracker = 0x88600006;
@@ -732,6 +782,24 @@ namespace EXGUID
 	const EXuid CustomAttributeID_Message_ChangePath = 0x8940007f;
 	const EXuid CustomAttributeID_GXTimelineEvent_JumptoRandomStateMarker = 0x89400085;
 	const EXuid CustomAttributeID_Message_DuplicateOne = 0x89400086;
+	const EXuid CustomAttributeID_Message_Shutdown = 0x89400087;
+	const EXuid CustomAttributeID_Message_ChangeNormalPath = 0x89400088;
+	const EXuid CustomAttributeID_GXTimelineEvent_WaitMulti = 0x89400089;
+	const EXuid CustomAttributeID_Message_PathSetSpeedGradual = 0x8940008a;
+	const EXuid CustomAttributeID_GXTimelineEvent_WaitHealth = 0x8940008b;
+	const EXuid CustomAttributeID_Message_Activate = 0x8940008c;
+	const EXuid CustomAttributeID_Message_Deactivate = 0x8940008d;
+	const EXuid CustomAttributeID_Message_Pause = 0x8940008e;
+	const EXuid CustomAttributeID_Message_Resume = 0x8940008f;
+	const EXuid CustomAttributeID_Message_SetSpeed = 0x89400090;
+	const EXuid CustomAttributeID_Message_RigidBodyPause = 0x89400091;
+	const EXuid CustomAttributeID_Message_RigidBodyResume = 0x89400092;
+	const EXuid CustomAttributeID_Message_SetSpeedGradual = 0x89400093;
+	const EXuid CustomAttributeID_Message_SetRange = 0x89400094;
+	const EXuid CustomAttributeID_Message_PathChangePath = 0x89400095;
+	const EXuid CustomAttributeID_Message_PathChangeNormalPath = 0x89400096;
+	const EXuid CustomAttributeID_Message_TimelineChangeState = 0x89400097;
+	const EXuid CustomAttributeID_Message_TimelineSetState = 0x89400098;
 
 	// Asset Type: ResourceFile 0x80100000
 
@@ -842,6 +910,21 @@ namespace EXGUID
 	const EXuid Message_DuplicateOne = 0x89c00028;
 	const EXuid Message_MaxReached = 0x89c0002a;
 	const EXuid Message_MinReached = 0x89c0002b;
+	const EXuid Message_ChangeNormalPath = 0x89c0002c;
+	const EXuid Message_PathSetSpeedGradual = 0x89c0002d;
+	const EXuid Message_Activate = 0x89c0002e;
+	const EXuid Message_Deactivate = 0x89c0002f;
+	const EXuid Message_Pause = 0x89c00030;
+	const EXuid Message_Resume = 0x89c00031;
+	const EXuid Message_SetSpeed = 0x89c00032;
+	const EXuid Message_RigidBodyPause = 0x89c00033;
+	const EXuid Message_RigidBodyResume = 0x89c00034;
+	const EXuid Message_SetSpeedGradual = 0x89c00035;
+	const EXuid Message_SetRange = 0x89c00036;
+	const EXuid Message_PathChangePath = 0x89c00037;
+	const EXuid Message_PathChangeNormalPath = 0x89c00038;
+	const EXuid Message_TimelineSetState = 0x89c00039;
+	const EXuid Message_TimelineChangeState = 0x89c0003a;
 
 	// Asset Type: AudioGameVars 0x91000000
 
@@ -905,6 +988,17 @@ namespace EXGUID
 	const EXuid Event_MWOnRequestCreateDialogue = 0x89900012;
 	const EXuid Event_MWOnRequestResetDialogue = 0x89900013;
 	const EXuid Event_MWOnRequestDismissDialogue = 0x89900014;
+	const EXuid Event_MWOnCustomDialogueDismissed = 0x8990001f;
+	const EXuid Event_MWOnRequestModifyDialogue = 0x89900020;
+	const EXuid Event_MWOnUserEnteredPlayerList = 0x89900021;
+	const EXuid Event_MWOnUserRemovedFromPlayerList = 0x89900022;
+	const EXuid Event_MWOnRequestBeginPS3MoveCalibration = 0x89900023;
+	const EXuid Event_MWOnPS3MoveCalibrationStatusChanged = 0x89900024;
+	const EXuid Event_MWOnRequestInitialCalibration = 0x89900025;
+	const EXuid Event_MWOnUpdatePS3MoveState = 0x89900026;
+	const EXuid Event_MWOnUpdatePS3MoveTracking = 0x89900027;
+	const EXuid Event_MWOnChangePS3MoveProcessingStatus = 0x89900028;
+	const EXuid Event_MWOnSignInStatusChange = 0x89900029;
 
 	// Asset Type: TimelineRange 0x94d00000
 	const EXuid TimelineRange_PhysicsDriver = 0x94d00033;
@@ -918,6 +1012,10 @@ namespace EXGUID
 	const EXuid TimelineRange_Slider = 0x94d00000;
 	const EXuid TimelineRange_Empty = 0x94d00037;
 	const EXuid TimelineRange_PhysicsDriverReverse = 0x94d0003a;
+	const EXuid TimelineRange_UI_Inactive = 0x94d0003b;
+	const EXuid TimelineRange_UI_Active = 0x94d0003c;
+	const EXuid TimelineRange_UI_Intro = 0x94d0003d;
+	const EXuid TimelineRange_UI_Outro = 0x94d0003e;
 
 	// Asset Type: State 0x95000000
 	const EXuid State_Inactive = 0x95000000;
@@ -964,6 +1062,18 @@ namespace EXGUID
 	const EXuid MWEvent_OnRigidBodyNudge1Shot = 0x94b0001c;
 	const EXuid MWEvent_OnSetTimelineRange = 0x94b00021;
 	const EXuid MWEvent_OnTimelineInterpSpeed = 0x94b0002e;
+	const EXuid MWEvent_OnRespawn = 0x94b0002f;
+	const EXuid MWEvent_OnInstancesFull = 0x94b00030;
+	const EXuid MWEvent_OnInstancesAvailable = 0x94b00031;
+	const EXuid MWEvent_OnRigidBodyResume = 0x94b00036;
+	const EXuid MWEvent_OnPause = 0x94b00032;
+	const EXuid MWEvent_OnResume = 0x94b00033;
+	const EXuid MWEvent_OnSetSpeed = 0x94b00034;
+	const EXuid MWEvent_OnRigidBodyPause = 0x94b00035;
+	const EXuid MWEvent_OnSetSpeedGradual = 0x94b00037;
+	const EXuid MWEvent_OnSetRange = 0x94b00038;
+	const EXuid MWEvent_OnTimelineSetState = 0x94b00039;
+	const EXuid MWEvent_OnTimelineChangeState = 0x94b0003a;
 
 	// Asset Type: PhysicsHandler 0x88500000
 	const EXuid PhysicsHandler_AnimMotion = 0x88500000;
@@ -983,6 +1093,7 @@ namespace EXGUID
 	const EXuid MWManagerEvent_OnGameBegin = 0x95200003;
 	const EXuid MWManagerEvent_OnGameEnd = 0x95200004;
 	const EXuid MWManagerEvent_App_InitialiseFileTypes = 0x9520000d;
+	const EXuid MWManagerEvent_OnSceneLoadCancelled = 0x9520000e;
 
 	// Asset Type: NodeSet 0xa0600000
 	const EXuid NodeSet_CameraExclusion = 0xa0600000;
@@ -1040,6 +1151,25 @@ namespace EXGUID
 	const EXuid WiiHomeMenu_HomeBtnIcon_tpl = 0x9690000c;
 	const EXuid WiiHomeMenu_HomeButtonSe_arc = 0x9690000d;
 	const EXuid WiiHomeMenu_SpeakerSe_arc = 0x9690000e;
+
+	// Asset Type: UIRange 0x83000000
+	const EXuid UIRange_NULL = 0x83000000;
+	const EXuid UIRange_Intro = 0x83000001;
+	const EXuid UIRange_Outro = 0x83000002;
+	const EXuid UIRange_Inactive = 0x83000003;
+	const EXuid UIRange_Active = 0x83000004;
+	const EXuid UIRange_Selected = 0x83000005;
+
+	// Asset Type: AdaptorSlider 0xa6500000
+	const EXuid AdaptorSlider_NULL = 0xa6500000;
+	const EXuid AdaptorSlider_MWTest_Ramp = 0xa6500002;
+
+	// Asset Type: AdaptorTextString 0xa3d00000
+	const EXuid AdaptorTextString_NULL = 0xa3d00000;
+	const EXuid AdaptorTextString_MWTest_Hello = 0xa3d00001;
+
+	// Asset Type: AdaptorTimelineAsset 0xa3f00000
+	const EXuid AdaptorTimelineAsset_NULL = 0xa3f00000;
 }
 
 namespace EXFUID
@@ -1207,4 +1337,12 @@ namespace EXFUID
 	// Asset Type: UIInput 0x15380000
 
 	// Asset Type: WiiHomeMenu 0x16980000
+
+	// Asset Type: UIRange 0x03080000
+
+	// Asset Type: AdaptorSlider 0x26580000
+
+	// Asset Type: AdaptorTextString 0x23d80000
+
+	// Asset Type: AdaptorTimelineAsset 0x23f80000
 }
