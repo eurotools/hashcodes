@@ -2580,6 +2580,8 @@ namespace EXFUID
 
 	// Asset Type: Script 0x01980000
 
+	// Asset Type: Terrain 0x01a80000
+
 	// Asset Type: FileStore 0x01b80000
 
 	// Asset Type: TextStore 0x01c80000
